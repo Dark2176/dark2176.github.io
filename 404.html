@@ -1,9 +1,73 @@
 <!DOCTYPE html>
-<html> ERROR CODE 404
-<body my team will fix on that later... bgcolor=cyan> 
-<h1> PLEASE TRY AGAIN LATER </h1>
-<p> WHEN I FIX THE PROBLEM.... </p>
+<html>
+  <head>
+    <title>Juice Games</title>
+ <style>
+ body {
+  background-color: #f2f2f2;
+  text-align: center;
+}
 
-</body>   COME BACK IN A FEW DAYS, THANK YOU FOR YOUR UNDERSTANDING 😄
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-</html> WE WILL TELL YOU THE OFFICIAL DATE IN 1-25-23
+.game-card {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.game-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 100%;
+  height: 60%;
+}
+
+button {
+  background-color: #ff0000;
+  color: rgb(0, 140, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: blue;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ </style>
+  </head>
+  <body>
+    <h1>Juice games</h1>
+    <div class="game-container">
+      <div class="game-card">
+        <h2>Game 1</h2>
+        <img src="game1.jpg" alt="Game 1">
+        <button onclick="location.href='game1.html'">Play</button>
+      </div>
+      <div class="game-card">
+        <h2>Game 2</h2>
+        <img src="game2.jpg" alt="Game 2">
+        <button onclick="location.href='game2.html'">Play</button>
+      </div>
+      <div class="game-card">
+        <h2>Game 3</h2>
+        <img src="game3.jpg" alt="Game 3">
+        <button onclick="location.href='game3.html'">Play</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
